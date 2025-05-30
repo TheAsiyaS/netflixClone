@@ -7,8 +7,10 @@ part 'mdlDownloads.g.dart';
 @freezed
 class DownloadsModl with _$DownloadsModl {
   const factory DownloadsModl({
-    @JsonKey(name: 'poster_path') required String? posterPath,
-    @JsonKey(name: 'title') required String? Title,
+    @JsonKey(name: 'poster_path')
+     required String? posterPath,
+    @JsonKey(name: 'title') 
+    required String? Title,
   }) = _DownloadsModl; 
 
   factory DownloadsModl.fromJson(Map<String, dynamic> json) =>
