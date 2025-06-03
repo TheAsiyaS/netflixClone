@@ -189,39 +189,3 @@ class dowloadImageWidget extends StatelessWidget {
     );
   }
 }
-
-/**
-  SizedBox(
-        width: size.width,
-        height: size.width,
-        // color: Colors.amber,
-        child: Stack(
-          alignment: Alignment.center,
-          children: [
-            const Center(
-              child: CircleAvatar(
-                radius: 155,
-                backgroundColor: Color.fromARGB(255, 131, 131, 131),
-              ),
-            ), 
-            dowloadImageWidget(
-              imageurl: '${im}',
-              size: Size(size.width * 0.5, size.width * 0.5),
-              margine: const EdgeInsets.only(left: 170, bottom: 10),
-              angle: 20,
-            ),
-            dowloadImageWidget( 
-              imageurl: downloadImges[2],
-              size: Size(size.width * 0.5, size.width * 0.5),
-              margine: const EdgeInsets.only(right: 170, bottom: 14),
-              angle: -20,
-            ),
-            dowloadImageWidget(
-                imageurl: downloadImges[1], 
-                size: Size(size.width * 0.45, size.width * 0.6),
-                margine: const EdgeInsets.only(top: 20))
-          ],
-        
-      ),
-    );
- */
